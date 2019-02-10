@@ -41,7 +41,7 @@ async def help(ctx):
     )
     e.add_field(
         name = "!8ball",
-        value = "Acts like a Magic 8-Ball so as it yes or no questions.",
+        value = "Acts like a Magic 8-Ball so ask it yes or no questions.",
         inline = False
     )
     await ctx.send(embed = e)
